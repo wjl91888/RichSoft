@@ -1,0 +1,185 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="RecordInfo" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="RecordInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FieldName" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldRemark" type="xs:string" minOccurs="0" />
+                <xs:element name="OrderID" type="xs:string" minOccurs="0" />
+                <xs:element name="DataSize" type="xs:short" minOccurs="0" />
+                <xs:element name="IsUse" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsString" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsPrimaryKey" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsNull" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsFixed" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsSearch" type="xs:boolean" minOccurs="0" />
+                <xs:element name="FixedValue" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlType" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlTypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="DBType" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldType" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlTypePrefix" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlTypeValueSuffix" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlID" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateType" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateFaildMessage" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateMethod" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateParameterOne" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateParameterTwo" type="xs:string" minOccurs="0" />
+                <xs:element name="TitleWidth" type="xs:string" minOccurs="0" />
+                <xs:element name="TitleHeight" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentWidth" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentHeight" type="xs:string" minOccurs="0" />
+                <xs:element name="TitleStyle" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentStyle" type="xs:string" minOccurs="0" />
+                <xs:element name="DefaultValue" type="xs:string" minOccurs="0" />
+                <xs:element name="SPDefaultValue" type="xs:string" minOccurs="0" />
+                <xs:element name="SPSelectDataType" type="xs:string" minOccurs="0" />
+                <xs:element name="SPUpdateDataType" type="xs:string" minOccurs="0" />
+                <xs:element name="SPDataSize" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <RecordInfo>
+    <FieldName>ObjectID</FieldName>
+    <DataSize>16</DataSize>
+    <IsUse>false</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>false</IsSearch>
+    <DBType>uniqueidentifier</DBType>
+    <FieldType>String</FieldType>
+    <DefaultValue>(newid())</DefaultValue>
+    <SPDefaultValue>newid()</SPDefaultValue>
+    <SPSelectDataType>nvarchar(50)</SPSelectDataType>
+    <SPUpdateDataType>nvarchar(50)</SPUpdateDataType>
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceOperatorID</FieldName>
+    <FieldRemark>操作员编号</FieldRemark>
+    <DataSize>100</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>true</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <ControlType>单行文本框</ControlType>
+    <ControlTypeName>TextBox</ControlTypeName>
+    <DBType>nvarchar</DBType>
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>字符串长度验证</DataValidateType>
+    <DataValidateFaildMessage>ERR_MSGID_0023</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLength(htInputParameter["InsuranceOperatorID"], 12)</DataValidateMethod>
+    <DataValidateParameterOne>12</DataValidateParameterOne>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>nvarchar(50)</SPSelectDataType>
+    <SPUpdateDataType>nvarchar(50)</SPUpdateDataType>
+    <SPDataSize>(50)</SPDataSize>
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceOperatorName</FieldName>
+    <FieldRemark>操作员姓名</FieldRemark>
+    <DataSize>100</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <ControlType>单行文本框</ControlType>
+    <ControlTypeName>TextBox</ControlTypeName>
+    <DBType>nvarchar</DBType>
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuranceOperatorName"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>nvarchar(50)</SPSelectDataType>
+    <SPUpdateDataType>nvarchar(50)</SPUpdateDataType>
+    <SPDataSize>(50)</SPDataSize>
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceCompany</FieldName>
+    <FieldRemark>操作员公司</FieldRemark>
+    <DataSize>100</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <ControlType>单行文本框</ControlType>
+    <ControlTypeName>TextBox</ControlTypeName>
+    <DBType>nvarchar</DBType>
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>字符串长度验证</DataValidateType>
+    <DataValidateFaildMessage>ERR_MSGID_0023</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLength(htInputParameter["InsuranceCompany"], 6)</DataValidateMethod>
+    <DataValidateParameterOne>6</DataValidateParameterOne>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>nvarchar(50)</SPSelectDataType>
+    <SPUpdateDataType>nvarchar(50)</SPUpdateDataType>
+    <SPDataSize>(50)</SPDataSize>
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>AddDate</FieldName>
+    <DataSize>8</DataSize>
+    <IsUse>false</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>false</IsSearch>
+    <DBType>datetime</DBType>
+    <FieldType>DateTime</FieldType>
+    <DefaultValue>(getdate())</DefaultValue>
+    <SPDefaultValue>getdate()</SPDefaultValue>
+    <SPSelectDataType>datetime</SPSelectDataType>
+    <SPUpdateDataType>datetime</SPUpdateDataType>
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>UpdateDate</FieldName>
+    <DataSize>8</DataSize>
+    <IsUse>false</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>false</IsSearch>
+    <DBType>datetime</DBType>
+    <FieldType>DateTime</FieldType>
+    <DefaultValue>(getdate())</DefaultValue>
+    <SPDefaultValue>getdate()</SPDefaultValue>
+    <SPSelectDataType>datetime</SPSelectDataType>
+    <SPUpdateDataType>datetime</SPUpdateDataType>
+    <SPDataSize />
+  </RecordInfo>
+  <DataBaseName>DB_INSURANCE</DataBaseName>
+  <TableName>T_BM_InsuranceOperatorInfo</TableName>
+  <NameSpace>
+  </NameSpace>
+</NewDataSet>

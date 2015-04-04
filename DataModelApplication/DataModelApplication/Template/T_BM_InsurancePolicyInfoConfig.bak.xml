@@ -1,0 +1,1209 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="RecordInfo" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="RecordInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FieldName" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldRemark" type="xs:string" minOccurs="0" />
+                <xs:element name="OrderID" type="xs:string" minOccurs="0" />
+                <xs:element name="DataSize" type="xs:short" minOccurs="0" />
+                <xs:element name="IsUse" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsString" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsPrimaryKey" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsNull" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsFixed" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsSearch" type="xs:boolean" minOccurs="0" />
+                <xs:element name="FixedValue" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlType" type="xs:string" minOccurs="0" />
+                <xs:element name="DBType" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldType" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlTypePrefix" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlTypeValueSuffix" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlID" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateType" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateFaildMessage" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateMethod" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateParameterOne" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateParameterTwo" type="xs:string" minOccurs="0" />
+                <xs:element name="TitleWidth" type="xs:string" minOccurs="0" />
+                <xs:element name="TitleHeight" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentWidth" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentHeight" type="xs:string" minOccurs="0" />
+                <xs:element name="TitleStyle" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentStyle" type="xs:string" minOccurs="0" />
+                <xs:element name="DefaultValue" type="xs:string" minOccurs="0" />
+                <xs:element name="SPDefaultValue" type="xs:string" minOccurs="0" />
+                <xs:element name="SPSelectDataType" type="xs:string" minOccurs="0" />
+                <xs:element name="SPUpdateDataType" type="xs:string" minOccurs="0" />
+                <xs:element name="SPDataSize" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <RecordInfo>
+    <FieldName>ObjectID</FieldName>
+    <FieldRemark />
+    <OrderID />
+    <IsUse>false</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>false</IsSearch>
+    <FixedValue />
+    <ControlType />
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix />
+    <ControlTypeValueSuffix />
+    <ControlID />
+    <DataValidateType />
+    <DataValidateFaildMessage />
+    <DataValidateMethod />
+    <DataValidateParameterOne />
+    <DataValidateParameterTwo />
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue />
+    <SPDefaultValue> NULL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsurancePolicyNumber</FieldName>
+    <FieldRemark>保单号</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度验证</DataValidateType>
+    <DataValidateFaildMessage>ERR_MSGID_0023</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLength(htInputParameter["InsurancePolicyNumber"], 22)</DataValidateMethod>
+    <DataValidateParameterOne>22</DataValidateParameterOne>
+    <DataValidateParameterTwo />
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>PolicyHolderName</FieldName>
+    <FieldRemark>投保人名称/姓名</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度验证</DataValidateType>
+    <DataValidateFaildMessage>ERR_MSGID_0023</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLength(htInputParameter["PolicyHolderName"], 1)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>PolicyHolderAddress</FieldName>
+    <FieldRemark>投保人住所</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["PolicyHolderAddress"], 1, 255)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>255</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>PolicyHolderPostCode</FieldName>
+    <FieldRemark>邮政编码</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度验证</DataValidateType>
+    <DataValidateFaildMessage>ERR_MSGID_0023</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLength(htInputParameter["PolicyHolderPostCode"], 6)</DataValidateMethod>
+    <DataValidateParameterOne>6</DataValidateParameterOne>
+    <DataValidateParameterTwo />
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceVerhicleNumber</FieldName>
+    <FieldRemark>投保机动车数</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>数字格式验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0003</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateNumberFormat(htInputParameter["InsuranceVerhicleNumber"])</DataValidateMethod>
+    <DataValidateParameterOne />
+    <DataValidateParameterTwo />
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceContactName</FieldName>
+    <FieldRemark>联系人姓名</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuranceContactName"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceContactPhone</FieldName>
+    <FieldRemark>固定电话</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuranceContactPhone"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceContactCellphone</FieldName>
+    <FieldRemark>移动电话</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuranceContactCellphone"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuredName</FieldName>
+    <FieldRemark>自然人姓名</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuredName"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuredIdentityCard</FieldName>
+    <FieldRemark>身份号码</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuredIdentityCard"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuredCorporateName</FieldName>
+    <FieldRemark>法人或其他组织名称</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuredCorporateName"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuredIsCorporate</FieldName>
+    <FieldRemark />
+    <OrderID />
+    <IsUse>false</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>false</IsSearch>
+    <FixedValue />
+    <ControlType />
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix />
+    <ControlTypeValueSuffix />
+    <ControlID />
+    <DataValidateType />
+    <DataValidateFaildMessage />
+    <DataValidateMethod />
+    <DataValidateParameterOne />
+    <DataValidateParameterTwo />
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue />
+    <SPDefaultValue> NULL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuredOranizationCode</FieldName>
+    <FieldRemark>组织机构代码</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuredOranizationCode"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuredOranizationNature</FieldName>
+    <FieldRemark>被保险人单位性质</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单选框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>rb</ControlTypePrefix>
+    <ControlTypeValueSuffix>SelectedValue</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuredOranizationNature"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuredContactName</FieldName>
+    <FieldRemark>联系人姓名</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuredContactName"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuredContactPhone</FieldName>
+    <FieldRemark>固定电话</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuredContactPhone"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuredContactCellphone</FieldName>
+    <FieldRemark>移动电话</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuredContactCellphone"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuredContactAddress</FieldName>
+    <FieldRemark>被保险人住所</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuredContactAddress"], 1, 255)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>255</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuredContactPostCode</FieldName>
+    <FieldRemark>邮政编码</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuredContactPostCode"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceVehicheLicenseNumber</FieldName>
+    <FieldRemark>号牌号码</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuranceVehicheLicenseNumber"], 1, 10)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>10</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceVehicheLicenseColor</FieldName>
+    <FieldRemark>号牌底色</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单选框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>rb</ControlTypePrefix>
+    <ControlTypeValueSuffix>SelectedValue</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuranceVehicheLicenseColor"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceVehicheType</FieldName>
+    <FieldRemark>机动车种类</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单选框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>rb</ControlTypePrefix>
+    <ControlTypeValueSuffix>SelectedValue</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuranceVehicheType"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceVehicheUsage</FieldName>
+    <FieldRemark>机动车使用性质</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单选框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>rb</ControlTypePrefix>
+    <ControlTypeValueSuffix>SelectedValue</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuranceVehicheUsage"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceBeginDate</FieldName>
+    <FieldRemark>开始时间</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>时间格式验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0005</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateDateFormat(htInputParameter["InsuranceBeginDate"])</DataValidateMethod>
+    <DataValidateParameterOne />
+    <DataValidateParameterTwo />
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceEndDate</FieldName>
+    <FieldRemark>终止时间</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>时间格式验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0005</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateDateFormat(htInputParameter["InsuranceEndDate"])</DataValidateMethod>
+    <DataValidateParameterOne />
+    <DataValidateParameterTwo />
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceType</FieldName>
+    <FieldRemark>投保险种</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>多选框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>chk</ControlTypePrefix>
+    <ControlTypeValueSuffix>SelectedValue</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuranceType"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceCosts</FieldName>
+    <FieldRemark>保险费合计</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>数字格式验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0003</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateNumberFormat(htInputParameter["InsuranceCosts"])</DataValidateMethod>
+    <DataValidateParameterOne />
+    <DataValidateParameterTwo />
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceOperator</FieldName>
+    <FieldRemark>经办人</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>下拉列表框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>ddl</ControlTypePrefix>
+    <ControlTypeValueSuffix>SelectedValue</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["InsuranceOperator"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>Signatory</FieldName>
+    <FieldRemark>甲方确认签字</FieldRemark>
+    <OrderID />
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>true</IsSearch>
+    <FixedValue />
+    <ControlType>单行文本框</ControlType>
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>txt</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <ControlID />
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange(htInputParameter["Signatory"], 1, 50)</DataValidateMethod>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>50</DataValidateParameterTwo>
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue> NULL</DefaultValue>
+    <SPDefaultValue>NUL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>IsExpired</FieldName>
+    <FieldRemark />
+    <OrderID />
+    <IsUse>false</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>false</IsSearch>
+    <FixedValue />
+    <ControlType />
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix />
+    <ControlTypeValueSuffix />
+    <ControlID />
+    <DataValidateType />
+    <DataValidateFaildMessage />
+    <DataValidateMethod />
+    <DataValidateParameterOne />
+    <DataValidateParameterTwo />
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue />
+    <SPDefaultValue> NULL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>InsuranceCompany</FieldName>
+    <FieldRemark />
+    <OrderID />
+    <IsUse>false</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>false</IsSearch>
+    <FixedValue />
+    <ControlType />
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix />
+    <ControlTypeValueSuffix />
+    <ControlID />
+    <DataValidateType />
+    <DataValidateFaildMessage />
+    <DataValidateMethod />
+    <DataValidateParameterOne />
+    <DataValidateParameterTwo />
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue />
+    <SPDefaultValue> NULL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>AddDate</FieldName>
+    <FieldRemark />
+    <OrderID />
+    <IsUse>false</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>false</IsSearch>
+    <FixedValue />
+    <ControlType />
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix />
+    <ControlTypeValueSuffix />
+    <ControlID />
+    <DataValidateType />
+    <DataValidateFaildMessage />
+    <DataValidateMethod />
+    <DataValidateParameterOne />
+    <DataValidateParameterTwo />
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue />
+    <SPDefaultValue> NULL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <RecordInfo>
+    <FieldName>UpdateDate</FieldName>
+    <FieldRemark />
+    <OrderID />
+    <IsUse>false</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsFixed>false</IsFixed>
+    <IsSearch>false</IsSearch>
+    <FixedValue />
+    <ControlType />
+    <DBType />
+    <FieldType>String</FieldType>
+    <ControlTypePrefix />
+    <ControlTypeValueSuffix />
+    <ControlID />
+    <DataValidateType />
+    <DataValidateFaildMessage />
+    <DataValidateMethod />
+    <DataValidateParameterOne />
+    <DataValidateParameterTwo />
+    <TitleWidth />
+    <TitleHeight />
+    <ContentWidth />
+    <ContentHeight />
+    <TitleStyle />
+    <ContentStyle />
+    <DefaultValue />
+    <SPDefaultValue> NULL</SPDefaultValue>
+    <SPSelectDataType />
+    <SPUpdateDataType />
+    <SPDataSize />
+  </RecordInfo>
+  <TableName>T_BM_InsurancePolicyInfo</TableName>
+  <NameSpace>
+  </NameSpace>
+</NewDataSet>
